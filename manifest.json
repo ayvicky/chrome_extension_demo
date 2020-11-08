@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Extension demo",
+  "description": "Quick launch Extension Demo",
+  "version": "1.0.0",
+  "icons": { "128": "images/favicon128x128.png" },
+    "browser_action": {
+        "default_icon": "images/favicon.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab"]
+}
